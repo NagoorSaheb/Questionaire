@@ -14,11 +14,11 @@ public class PrintNumber {
 			      input = br.readLine();
 			      number = Integer.parseInt(input);
 			    } catch (NumberFormatException ex) {
-			       System.out.println("Not a number !");
+			       System.out.println("Not a number ! Please check");
 			    } 
 		}while(number == 0);
 		    System.out.println("The number entered is "+number);
-		/*//   method 1 ; // for inputs less than 20
+		/*//   method 1 : Not required for now // for inputs less than 20
 		    long s=0,i;
 		    for (i = 1; i <= number; ++i)                        
 		    {
